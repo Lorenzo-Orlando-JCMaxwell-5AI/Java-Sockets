@@ -21,7 +21,6 @@ class SocketWorker implements Runnable {
         PrintWriter out = null;
         String line = "";
         String nomeHost = "";
-        List<String> utenti= new ArrayList();
         try
         {
           // connessione con il socket per ricevere (in) e mandare(out) il testo
@@ -45,15 +44,15 @@ class SocketWorker implements Runnable {
                 out.println("Scrivi il comando !listautenti per sapere chi è connesso");
                 out.println("Inserisci il nickname");
                 nomeHost = in.readLine();
-                utenti.add(nomeHost);
+                ServerTestoMultiThreaded.utenti.add(nomeHost);
             }
             //inserisce il testo se il testo e il comando il comando verrà eseguito
             line = in.readLine();
             if(line.equals("!listautenti"));
             {
-                for(int j=0; j<utenti.size(); j++)
+                for(int j=0; j<ServerTestoMultiThreaded.utenti.size(); j++)
                 {
-                    out.println(utenti.get(j));
+                    out.println(ServerTestoMultiThreaded.utenti.get(j));
                 }
             }
             

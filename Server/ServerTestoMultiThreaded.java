@@ -5,6 +5,8 @@ import java.util.List;
 
 public class ServerTestoMultiThreaded 
 {
+    public static List<String> utenti = new ArrayList();
+    
     public static void main(String[] args) 
     {
         if (args.length != 1) 
@@ -25,7 +27,6 @@ public class ServerTestoMultiThreaded
                 try 
                 {   
                     //server.accept returns a client connection
-                    List<String> utenti= new ArrayList();
                     w = new SocketWorker(server.accept());
                     Thread t = new Thread(w);
                     t.start();
@@ -37,7 +38,7 @@ public class ServerTestoMultiThreaded
                     System.exit(-1);
                 }
             }
-        } 
+        }
         
         catch (IOException e) 
         {

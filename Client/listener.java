@@ -1,17 +1,8 @@
-/*
- * Listener.java e' una classe "runnable" che serve ad agire quando il Client riceve testo dal Server.
- * In questo caso il client riceve il testo e lo scrive su terminale, 
- * nel caso in cui riceva "Bye." chiude il socket e termina il client
- */
 import java.net.*;
 import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Prof. Matteo Palitto
- */
 class listener implements Runnable {
   private Socket client;
 
