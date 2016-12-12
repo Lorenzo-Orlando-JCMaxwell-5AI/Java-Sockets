@@ -67,13 +67,12 @@ Questa e' la lista di nuove funzioni da aggiungere al progetto:
 3.2. Possibilita' di invitare uno o piu' utenti conessi a entrare nella "goup chat"
 3.3. Possibilita' di uscire dalla "group chat"
 ```
+## Funzioni Del programma
+
+Dopo aver lanciato in programma questo chiederà di inserire il nome utente e scrivendo 'listautenti' 
+nel messaggio da inviare questo fornirà la lista di utenti connessi al server(ancora in fase di implementazione)
+
 Mentre le modifiche descritte dai primi due punti risulteranno in una fusione (merge), le modifiche descritti dai punti 3 dovranno far parte di un nuovo progetto che parte da quello originario (fork).
  
 ## Licenza
 opensource nel modo piu' completo del termine :) senza alcuna restrizione!
-
-## Ringraziamenti
-a mia moglie che mi ha permesso di trovare il tempo per questo progetto guardando il bambino ;)
-
-## Autori
-mpalitto
