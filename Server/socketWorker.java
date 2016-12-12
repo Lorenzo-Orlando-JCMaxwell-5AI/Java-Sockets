@@ -50,11 +50,13 @@ class SocketWorker implements Runnable {
             line = in.readLine();
             if(line.equals("!listautenti"));
             {
+                System.out.println(ServerTestoMultiThreaded.utenti.size());
                 for(int j=0; j<ServerTestoMultiThreaded.utenti.size(); j++)
                 {
                     out.println(ServerTestoMultiThreaded.utenti.get(j));
                 }
             }
+            
             
             //Manda lo stesso messaggio appena ricevuto con in aggiunta il "nome" del client
             out.println("Server-->" + nomeHost + ">> " + line);
