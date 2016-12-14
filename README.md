@@ -69,8 +69,9 @@ Questa e' la lista di nuove funzioni da aggiungere al progetto:
 ```
 ## Funzioni Del programma
 
-Dopo aver lanciato in programma questo chiederà di inserire il nome utente e scrivendo 'listautenti' 
+Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
 nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
+
 
 Mentre le modifiche descritte dai primi due punti risulteranno in una fusione (merge), le modifiche descritti dai punti 3 dovranno far parte di un nuovo progetto che parte da quello originario (fork).
  
