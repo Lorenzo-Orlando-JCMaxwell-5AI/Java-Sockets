@@ -32,6 +32,11 @@ java clientTesto <host> <server port>
 dove:
 * host puo' essere espresso sia in forma numerica (es. 127.0.0.1) che in forma alfanumerica (es. www.nomeSito.com)
 ```
+
+Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
+nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
+
+
 NOTA: posso collegarmi al server con quanti Clients desidero, sia su stesso computer che da terminali su computer diversi.
 
 ### Esempio usando stesso computer sia per eseguire Server che multipli Clients
@@ -67,13 +72,6 @@ Questa e' la lista di nuove funzioni da aggiungere al progetto:
 3.2. Possibilita' di invitare uno o piu' utenti conessi a entrare nella "goup chat"
 3.3. Possibilita' di uscire dalla "group chat"
 ```
-## Funzioni Del programma
-
-Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
-nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
-
-
-Mentre le modifiche descritte dai primi due punti risulteranno in una fusione (merge), le modifiche descritti dai punti 3 dovranno far parte di un nuovo progetto che parte da quello originario (fork).
  
 ## Licenza
 opensource nel modo piu' completo del termine :) senza alcuna restrizione!
