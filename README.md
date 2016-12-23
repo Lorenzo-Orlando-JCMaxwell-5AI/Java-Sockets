@@ -50,6 +50,13 @@ Da nuova finestra di comando esguire il ```secondo``` Client
 cd Documents\NetBeansProjects\Java-Sockets-Client\src
 java client-Testo localhost 1234
 ```
+## Funzioni Del programma
+
+Per salvare i nickname degli utenti connessi abbiamo utilizzato una lista creata nel 
+ServerTestoMultithreaded, che permette inoltre di stampare i nomi dei client connessi tramite il comando !listautenti.
+Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
+nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
+
 ## Diventa un collaboratore
 Questa e' la lista di nuove funzioni da aggiungere al progetto:
 ```
@@ -67,13 +74,6 @@ Questa e' la lista di nuove funzioni da aggiungere al progetto:
 3.2. Possibilita' di invitare uno o piu' utenti conessi a entrare nella "goup chat"
 3.3. Possibilita' di uscire dalla "group chat"
 ```
-## Funzioni Del programma
 
-Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
-nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
-
-
-Mentre le modifiche descritte dai primi due punti risulteranno in una fusione (merge), le modifiche descritti dai punti 3 dovranno far parte di un nuovo progetto che parte da quello originario (fork).
- 
 ## Licenza
 opensource nel modo piu' completo del termine :) senza alcuna restrizione!
