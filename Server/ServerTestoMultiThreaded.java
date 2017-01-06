@@ -1,3 +1,5 @@
+package Server;
+
 import java.net.*;
 import java.io.*;
 import java.util.ArrayList;
@@ -5,8 +7,7 @@ import java.util.List;
 
 public class ServerTestoMultiThreaded 
 {
-    public static List<String> utenti = new ArrayList();
-    
+    public static List<String> utenti= new ArrayList();
     public static void main(String[] args) 
     {
         if (args.length != 1) 
@@ -14,7 +15,7 @@ public class ServerTestoMultiThreaded
             System.out.println("Uso: java ServerTestoMultithreaded <Porta Server>");
             return;
         }
-
+        
         int portNumber = Integer.parseInt(args[0]);
 
         try
