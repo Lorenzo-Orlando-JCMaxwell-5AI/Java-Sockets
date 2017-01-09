@@ -21,6 +21,7 @@ Scarica i files del progetto cliccando "Clone/Download"
 
 * estrai i files e spostali nella sub-directory "src" dei rispettivi progetti (es. Documents\NetBeansProjects\Java-Sockets-Server\src)
 
+
 ## Uso
 Dal terminale del Server:
 ```
@@ -52,10 +53,10 @@ java client-Testo localhost 1234
 ```
 ## Funzioni Del programma
 
-Per salvare i nickname degli utenti connessi abbiamo utilizzato una lista creata nel 
-ServerTestoMultithreaded, che permette inoltre di stampare i nomi dei client connessi tramite il comando !listautenti.
-Dopo aver lanciato in programma questo chiederà di inserire il nome utente, scrivendo 'listautenti' 
-nel messaggio da inviare questo fornirà la lista di utenti connessi al server.
+Per salvare i nickname degli utenti connessi abbiamo utilizzato una lista creata nel ServerTestoMultithreaded.
+Il programma all'avvio chiederà di inserire il nome e sarà possibile visualizzare la lista degli utenti connessi
+al server utilizzando il comando !listautenti.
+
 
 ## Diventa un collaboratore
 Questa e' la lista di nuove funzioni da aggiungere al progetto:
