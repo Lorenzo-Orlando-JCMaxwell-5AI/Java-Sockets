@@ -55,7 +55,7 @@ java client-Testo localhost 1234
 
 Per salvare i nickname degli utenti connessi abbiamo utilizzato una lista creata nel ServerTestoMultithreaded.
 Il programma all'avvio chiederà di inserire il nome e sarà possibile visualizzare la lista degli utenti connessi
-al server utilizzando il comando !listautenti oppure e possibile,tramite il comando !group, visualizzare i comandi della chat: !newgroup,!joinGroup,!listGroup,!back.(Leggere la wiki per maggiori info sui comandi :D).
+al server utilizzando il comando !listautenti oppure e possibile,tramite il comando !group, visualizzare i comandi della chat: !newgroup, !joinGroup, !listGroup, !back.(Leggere la wiki per maggiori info sui comandi :D).
 
 ## Licenza
 opensource nel modo piu' completo del termine :) senza alcuna restrizione!
