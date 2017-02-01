@@ -55,26 +55,7 @@ java client-Testo localhost 1234
 
 Per salvare i nickname degli utenti connessi abbiamo utilizzato una lista creata nel ServerTestoMultithreaded.
 Il programma all'avvio chiederà di inserire il nome e sarà possibile visualizzare la lista degli utenti connessi
-al server utilizzando il comando !listautenti.
-
-
-## Diventa un collaboratore
-Questa e' la lista di nuove funzioni da aggiungere al progetto:
-```
-1. Di seguito alla nuova connessione di un Client con il Server,
-   richiedere il "NickName" e utilizzarlo per la visualizzazione del messaggio 
-   (invece della porta del Client come da progetto iniziale)
-```
-```
-2. Aggiungere la possibilita' di mandare un comando (es. ListaUtenti) al Server 
-   che di conseguenza restituisca la lista di tutti i Clients connessi.
-```
-```
-3. Group Chat 
-3.1. Possibilita' di iniziare una o piu' "group chat" fornendo per ogni chat il "Soggetto della discussione"
-3.2. Possibilita' di invitare uno o piu' utenti conessi a entrare nella "goup chat"
-3.3. Possibilita' di uscire dalla "group chat"
-```
+al server utilizzando il comando !listautenti oppure e possibile,tramite il comando !group, visualizzare i comandi della chat: !newgroup,!joinGroup,!listGroup,!back.(Leggere la wiki per maggiori info sui comandi :D).
 
 ## Licenza
 opensource nel modo piu' completo del termine :) senza alcuna restrizione!
