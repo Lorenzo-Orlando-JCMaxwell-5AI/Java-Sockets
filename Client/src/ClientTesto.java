@@ -50,8 +50,9 @@ public class ClientTesto
             System.out.print(">"); //visualizza il prompt
             while ((userInput = stdIn.readLine()) != null) 
             {
-            	// scrittura del messaggio da spedire nel socket 
+            	// scrittura del messaggio da spedire nel socket
 		out.println(userInput);
+                System.out.println(" "); 
                 System.out.println("Messaggio spedito al server: " + userInput);
                 System.out.print(">"); //visualizza il prompt
             }

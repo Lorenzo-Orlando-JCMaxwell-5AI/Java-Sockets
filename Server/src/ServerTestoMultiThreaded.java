@@ -9,7 +9,7 @@ import java.util.*;
 public class ServerTestoMultiThreaded
 {
     //Dichiarazione della lista dei nomi client e dei gruppi
-    public static List<String> listaClient = new ArrayList();
+    public static List<SocketWorker> listaClient = new ArrayList();
     public static List<ChatGroup> gruppi = new ArrayList();
     
     public static void main(String[] args) 
@@ -35,6 +35,8 @@ public class ServerTestoMultiThreaded
                     //server.accept returns a client connection
                     w = new SocketWorker(server.accept());
                     Thread t = new Thread(w);
+                    listaClient.add(w);
+                    System.out.println("Client aggiunto");
                     t.start();
                 } 
                 catch (IOException e) 

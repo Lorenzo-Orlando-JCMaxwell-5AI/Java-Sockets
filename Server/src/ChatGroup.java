@@ -8,8 +8,8 @@ import java.util.*;
 
 public class ChatGroup 
 {
-    private static String chatName;
-    private static List<String> groupMember = new ArrayList();
+    private String chatName;
+    private List<String> groupMember = new ArrayList();
     
     //Costruttore del gruppo
     public ChatGroup(String chatName, List<String> groupMember)
@@ -25,7 +25,7 @@ public class ChatGroup
     }
     
     //Aggiunge un membro al gruppo
-    public static void addMember(String nomeClient)
+    public void addMember(String nomeClient)
     {
         groupMember.add(nomeClient);
     }
@@ -37,14 +37,27 @@ public class ChatGroup
     }
     
     //Restituisce i membri del gruppo collegati
-    public static List<String> getGroupMember()
+    public List<String> getGroupMember()
     {
         return groupMember;
     }
     
     //Restituisce il nome del gruppo
-    public static String getName()
+    public String getName()
     {
         return chatName;
+    }
+    
+    //Controlla se esiste il client
+    public boolean exist(String name)
+    {
+        for(int i = 0; i < groupMember.size(); i++)
+        {
+            if(name.equals (groupMember.get(i)))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
